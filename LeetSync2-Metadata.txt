@@ -133,3 +133,4 @@ solutions/2965-find-missing-and-repeated-values|Easy|1741199400000
 solutions/2379-minimum-recolors-to-get-k-consecutive-black-blocks|Easy|1741372200000
 solutions/567-permutation-in-string|Medium|1741545000000
 solutions/239-sliding-window-maximum|Hard|1741631400000
+solutions/1358-number-of-substrings-containing-all-three-characters|Medium|1741717800000
