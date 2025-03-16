@@ -134,3 +134,4 @@ solutions/2379-minimum-recolors-to-get-k-consecutive-black-blocks|Easy|174137220
 solutions/567-permutation-in-string|Medium|1741545000000
 solutions/239-sliding-window-maximum|Hard|1741631400000
 solutions/1358-number-of-substrings-containing-all-three-characters|Medium|1741717800000
+solutions/739-daily-temperatures|Medium|1742149800000
