@@ -135,3 +135,4 @@ solutions/567-permutation-in-string|Medium|1741545000000
 solutions/239-sliding-window-maximum|Hard|1741631400000
 solutions/1358-number-of-substrings-containing-all-three-characters|Medium|1741717800000
 solutions/739-daily-temperatures|Medium|1742149800000
+solutions/605-can-place-flowers|Easy|1743877800000
