@@ -137,3 +137,4 @@ solutions/1358-number-of-substrings-containing-all-three-characters|Medium|17417
 solutions/739-daily-temperatures|Medium|1742149800000
 solutions/605-can-place-flowers|Easy|1743877800000
 solutions/1550-three-consecutive-odds|Easy|1746901800000
+solutions/2094-finding-3-digit-even-numbers|Easy|1746988200000
