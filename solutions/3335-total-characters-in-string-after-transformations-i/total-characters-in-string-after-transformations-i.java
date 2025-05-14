@@ -1,37 +1,20 @@
 class Solution {
-    private final int M = 1_000_000_007;
     public int lengthAfterTransformations(String s, int t) {
-        
-        int[] mp = new int[26];
-
-        for(Character c : s.toCharArray()){
-            mp[c-'a']++;
+    	int MOD = (int)1e9 + 7, ans = 0;
+        long[] count = new long[26];
+        for (int c : s.toCharArray())
+        	count[c - 'a']++;
+        for (; t >= 26; t -= 26) {
+        	long z = count[25];
+        	for (int i = 25; i > 0; i--)
+        		count[i] = (count[i] + count[i - 1]) % MOD;
+        	count[0] = (count[0] + z) % MOD;
+        	count[1] = (count[1] + z) % MOD;
         }
-
-        for(int j=0; j<t; j++){
-
-            int[] temp = new int[26];
-            for(int i=0; i<26; i++){
-                char ch = (char)(i+'a');
-                int freq = mp[i];
-
-                if(ch != 'z'){
-                    temp[(ch + 1) - 'a'] = temp[(ch + 1) - 'a'] + freq;
-                }else{
-                    temp['a'-'a'] = (temp['a' - 'a'] + freq) % M;
-                    temp['b'-'a'] = (temp['b' - 'a'] + freq) % M;
-                }
-            }
-
-            mp = temp;
-        }
-
-        int ans = 0;
-
-        for(int i=0; i<26; i++){
-            ans = (ans + mp[i]) % M;
-        }
-
+        for (int i = 0; i < 26; i++)
+        	ans = (int)((ans + count[i]) % MOD);
+        for (int i = 26 - t; i < 26; i++)
+        	ans = (int)((ans + count[i]) % MOD);
         return ans;
     }
 }
