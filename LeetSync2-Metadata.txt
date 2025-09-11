@@ -142,3 +142,4 @@ solutions/3335-total-characters-in-string-after-transformations-i|Medium|1747161
 solutions/3337-total-characters-in-string-after-transformations-ii|Hard|1747247400000
 solutions/2900-longest-unequal-adjacent-groups-subsequence-i|Easy|1747247400000
 solutions/2311-longest-binary-subsequence-less-than-or-equal-to-k|Medium|1750876200000
+solutions/2396-strictly-palindromic-number|Medium|1757529000000
