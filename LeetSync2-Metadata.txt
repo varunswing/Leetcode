@@ -145,3 +145,4 @@ solutions/2311-longest-binary-subsequence-less-than-or-equal-to-k|Medium|1750876
 solutions/2396-strictly-palindromic-number|Medium|1757529000000
 solutions/56-merge-intervals|Medium|1763922600000
 solutions/1018-binary-prefix-divisible-by-5|Easy|1763922600000
+solutions/432-all-oone-data-structure|Hard|1764095400000
