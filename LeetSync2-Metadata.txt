@@ -147,3 +147,4 @@ solutions/56-merge-intervals|Medium|1763922600000
 solutions/1018-binary-prefix-divisible-by-5|Easy|1763922600000
 solutions/432-all-oone-data-structure|Hard|1764095400000
 solutions/44-wildcard-matching|Hard|1767292200000
+solutions/1235-maximum-profit-in-job-scheduling|Hard|1767378600000
