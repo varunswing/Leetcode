@@ -151,3 +151,4 @@ solutions/1235-maximum-profit-in-job-scheduling|Hard|1767378600000
 solutions/1283-find-the-smallest-divisor-given-a-threshold|Medium|1767551400000
 solutions/516-longest-palindromic-subsequence|Medium|1767637800000
 solutions/1975-maximum-matrix-sum|Medium|1767637800000
+solutions/188-best-time-to-buy-and-sell-stock-iv|Hard|1767637800000
